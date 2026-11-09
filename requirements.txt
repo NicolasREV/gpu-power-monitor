@@ -1,0 +1,2 @@
+nvidia-ml-py==13.615.71
+keyboard==0.13.5
