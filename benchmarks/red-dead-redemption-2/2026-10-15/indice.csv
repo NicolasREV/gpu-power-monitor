@@ -1,0 +1,19 @@
+arquivo,configuracao_cronologica,fps_medio_passagem_5,status
+Benchmark-26-10-15-09-29-17.txt,Preliminar,,Piloto sem limite 60 FPS
+Benchmark-26-10-15-09-34-29.txt,Preliminar,,Preliminar
+Benchmark-26-10-15-09-40-49.txt,Nativo,60.002083,Principal
+Benchmark-26-10-15-09-46-11.txt,Nativo,60.001534,Principal
+Benchmark-26-10-15-09-52-26.txt,Nativo,60.000652,Principal
+Benchmark-26-10-15-10-16-13.txt,DLSS Quality,60.002323,Principal
+Benchmark-26-10-15-10-21-55.txt,DLSS Quality,59.995228,Principal
+Benchmark-26-10-15-10-27-56.txt,DLSS Quality,60.002338,Principal
+Benchmark-26-10-15-10-42-05.txt,Preliminar,,Preliminar
+Benchmark-26-10-15-10-47-35.txt,DLSS Performance,60.001968,Principal
+Benchmark-26-10-15-10-52-55.txt,DLSS Performance,60.000977,Principal
+Benchmark-26-10-15-10-58-25.txt,DLSS Performance,60.002144,Principal
+Benchmark-26-10-15-11-07-41.txt,FSR Quality,59.994835,Principal
+Benchmark-26-10-15-11-13-04.txt,FSR Quality,59.999542,Principal
+Benchmark-26-10-15-11-19-10.txt,FSR Quality,59.991604,Principal
+Benchmark-26-10-15-11-32-24.txt,FSR Performance,59.999226,Principal
+Benchmark-26-10-15-11-37-48.txt,FSR Performance,59.998543,Principal
+Benchmark-26-10-15-11-43-11.txt,FSR Performance,59.794041,Principal
