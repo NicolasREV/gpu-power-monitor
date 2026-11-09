@@ -41,4 +41,4 @@ Este índice documenta **26 execuções originais** do benchmark integrado de Cy
 - Os benchmarks registram resolução de 2560×1440, limite de 60 FPS, V-Sync desligado, ray tracing desligado, frame generation desligado e resolução dinâmica desligada.
 - Estes dados descrevem FPS; o monitor Python registra potência da GPU separadamente.
 
-**Pacote original filtrado:** 26 pastas de 14/10/2026, com 52 arquivos brutos, mais `indice.csv`, `SHA256SUMS.txt` e `README.md`. SHA-256 do pacote ZIP preparado: `b5fd37145d026d58f630a86c877176853b868fd41eac80b4d846b7de2cb5d537`.
+**Pacote original filtrado (preparado para publicação, ainda não enviado ao GitHub):** 26 pastas de 14/10/2026, com 52 arquivos brutos, mais `indice.csv`, `SHA256SUMS.txt` e `README.md`. SHA-256 do pacote ZIP preparado: `986925a6cfec3e66959403cbc7dc5179b8c0831ac838b73e7d3c9649b138f312`.
