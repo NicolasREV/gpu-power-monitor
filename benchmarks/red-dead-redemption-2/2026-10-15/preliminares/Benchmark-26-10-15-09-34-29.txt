@@ -1,0 +1,40 @@
+Frames Per Second (Higher is better) Min, Max, Avg
+Pass 0, 52.611088, 69.762733, 60.003746
+
+Time in milliseconds(ms). (Lower is better). Min, Max, Avg
+Test 0, 14.334301, 19.007401, 16.665627
+
+Frames under 16ms (for 60fps): 
+Test 0: 96/421 frames (22.80%)
+
+Frames under 33ms (for 30fps): 
+Test 0: 421/421 frames (100.00%)
+
+Percentiles in ms for pass 0
+50%,	16.00
+75%,	17.00
+80%,	17.00
+85%,	17.00
+90%,	17.00
+91%,	17.00
+92%,	17.00
+93%,	17.00
+94%,	17.00
+95%,	18.00
+96%,	18.00
+97%,	18.00
+98%,	18.00
+99%,	18.00
+
+=== SYSTEM ===
+CPU: AMD Ryzen 7 5800X3D 8-Core Processor           
+	Physical Cores: 8
+	Logical Cores: 16
+
+GPU: NVIDIA NVIDIA GeForce RTX 4080	API: VULKAN	VRAM: 16375 MB
+
+System RAM: 32679 MB
+
+
+=== SETTINGS ===
+
