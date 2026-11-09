@@ -1,0 +1,6 @@
+ordem,modo,arquivo_original,frames,sha256
+1,Native,benchmark-2026.11.09-20.20.12.json,6911,96dd8ad778021e2076117a600aa2a39cbafa544e841f035ac7adebe22af90811
+2,DLSS Quality,benchmark-2026.11.09-20.24.40.json,6912,c695eca8864256d53b7329cf61414e8211b959d2647c6fc3d56c49ea8b4da4a7
+3,DLSS Performance,benchmark-2026.11.09-20.27.23.json,6884,dd7a05b890539924884fee496514dae06810ee9ebf09b14215fec1d63d322aa3
+4,FSR Quality,benchmark-2026.11.09-20.42.42.json,6880,27b06cad52c3178f8616e2b287c853edbed0701f132e6eb8ae01dfbb13ad10f0
+5,FSR Performance,benchmark-2026.11.09-20.45.25.json,6879,dcb10aa75c4c5bafd8e95f0d55db281f66d018e5400a58564cd181e772ed9a77
