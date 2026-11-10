@@ -35,10 +35,34 @@ Este índice documenta **26 execuções originais** do benchmark integrado de Cy
 | 18:43:28 | FSR 2.1 Performance — nitidez 0,00 | 60,0001 | Candidato a teste definitivo |
 | 18:45:01 | FSR 2.1 Performance — nitidez 0,00 | 60,0001 | Candidato a teste definitivo |
 
+## Associação temporal com as 15 medições originais de potência
+
+Os 15 CSVs de potência contêm timestamps de início de coleta. A comparação com os horários dos benchmarks listados no índice permite identificar, por correspondência temporal e ordem de execução, os seguintes pares **candidatos fortes**. A coleta de potência começou aproximadamente 15–17 segundos após o horário indicado no identificador do respectivo benchmark.
+
+| Configuração | Execução | Horário do benchmark (índice FPS) | Início da coleta NVML | FPS médio no índice |
+|---|---:|---|---|---:|
+| Nativo | 1 | 17:41:00 | 17:41:16 | 59,999973 |
+| Nativo | 2 | 17:48:12 | 17:48:28 | 59,999939 |
+| Nativo | 3 | 17:49:48 | 17:50:04 | 59,999973 |
+| DLSS Quality | 1 | 17:59:21 | 17:59:37 | 60,000027 |
+| DLSS Quality | 2 | 18:00:56 | 18:01:12 | 60,000301 |
+| DLSS Quality | 3 | 18:02:29 | 18:02:44 | 59,999832 |
+| DLSS Performance | 1 | 18:08:00 | 18:08:16 | 60,000351 |
+| DLSS Performance | 2 | 18:09:43 | 18:09:59 | 59,999985 |
+| DLSS Performance | 3 | 18:11:14 | 18:11:30 | 59,999817 |
+| FSR 2.1 Quality (nitidez 0) | 1 | 18:31:27 | 18:31:42 | 60,000256 |
+| FSR 2.1 Quality (nitidez 0) | 2 | 18:32:57 | 18:33:13 | 60,000134 |
+| FSR 2.1 Quality (nitidez 0) | 3 | 18:34:26 | 18:34:42 | 59,998749 |
+| FSR 2.1 Performance (nitidez 0) | 1 | 18:41:38 | 18:41:53 | 60,000309 |
+| FSR 2.1 Performance (nitidez 0) | 2 | 18:43:28 | 18:43:44 | 60,000069 |
+| FSR 2.1 Performance (nitidez 0) | 3 | 18:45:01 | 18:45:17 | 60,000057 |
+
+**Limites da associação:** a proximidade temporal e a sequência dos modos fornecem evidência forte de correspondência, mas os CSVs de potência não contêm FPS, nem incluem uma chave comum de execução. A publicação dos `summary.json` e `frames.csv` originais permanece pendente e permitiria auditoria mais completa. Não confundir essa associação com uma medição de FPS realizada pela ferramenta NVML.
+
 ## Interpretação e preservação
 
 - Os registros originais contêm `summary.json` (configurações e FPS) e `frames.csv` (dados por quadro); nenhuma execução deve ser descartada do acervo histórico por ser piloto.
-- Para a **análise principal do artigo**, somente as três execuções definitivas de cada configuração devem ser associadas aos CSVs originais de potência. O vínculo ainda precisa ser validado pelos horários, sobretudo em Nativo e DLSS Quality.
+- Para a **análise principal do artigo**, somente as três execuções definitivas de cada configuração foram consideradas. O cruzamento dos horários com os CSVs de potência permitiu identificar os 15 pares prováveis, documentados acima. A validação completa por identificadores dos arquivos de FPS depende da publicação dos registros brutos.
 - A presença de `FSR2Sharpness=0.5` em um `summary.json` **não** significa nitidez ativa se `FSR2Enabled=false`.
 - Os benchmarks registram resolução de 2560×1440, limite de 60 FPS, V-Sync desligado, ray tracing desligado, frame generation desligado e resolução dinâmica desligada.
 - Estes dados descrevem FPS; o monitor Python registra potência da GPU separadamente.
