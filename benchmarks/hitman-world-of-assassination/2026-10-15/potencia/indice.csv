@@ -1,0 +1,16 @@
+configuracao,execucao,arquivo_original,amostras,potencia_media_w,git_blob_sha,sha256
+Nativo,1,Hitman World of Assassination Ultra Native 1440p 1(1).csv,103,77.0735,a7dfe3f215269c544c1ace112d67cee860c75611,6b70f38479596f69fdf33b9c02d652d6fad57f6cc3c20739f27937e51052624c
+Nativo,2,Hitman World of Assassination Ultra Native 1440p 2(1).csv,103,77.0419,ccc8661372b33e6df47690e76a4968a78c39f7e1,e3059c089d93656655068caf0801a02e218102169a9ce08998a5bfc846335b85
+Nativo,3,Hitman World of Assassination Ultra Native 1440p 3(1).csv,104,76.9392,7934fc3bc33d8106063a4db2b124c708777984f6,b002ab3e6a0fa887dfdf0010fab446aa3b26ec9f6247d929fa045d3062372f19
+DLSS-Quality,1,Hitman World of Assassination Ultra DLSS Quality 1440p 1(1).csv,104,63.3533,cd438a5ae30cb0d0bd7ab2825bb091343da23332,954ba4996068f1ab9458bf0c4530d40924968e5b1acbcdd356381ed2a0613f6c
+DLSS-Quality,2,Hitman World of Assassination Ultra DLSS Quality 1440p 2(1).csv,103,63.7940,92cbec84ed63684bfb9c9f7014d63dc276b2c97e,e6dd3ac93f6943da36eba394f39682e8e5cdab770dff3e60d6151a37b631fc82
+DLSS-Quality,3,Hitman World of Assassination Ultra DLSS Quality 1440p 3(1).csv,103,64.4382,05eb314096a2310200418be4d075c24baebcad05,29c69b7516d980fd8afe7849f338ea50da3ffdaabc076c9578f1f56697bbeb24
+DLSS-Performance,1,Hitman World of Assassination Ultra DLSS Performance 1440p 1(1).csv,103,58.2716,393088299d0fc10012337e523c6c5e7470338237,79161ce3152fde345d7f88fa9b49af189125071c63a711444783fe31afee0716
+DLSS-Performance,2,Hitman World of Assassination Ultra DLSS Performance 1440p 2(1).csv,103,58.8909,54b1e3b6534eb9ba186a514ca6df73ebf2c1640c,79fd0c8605fb1b878d8d2e906c4b54b8e0a62d82c051be5dc63cb7267ae1e581
+DLSS-Performance,3,Hitman World of Assassination Ultra DLSS Performance 1440p 3(1).csv,103,58.9090,86b7b7acae427944c118f212b961cc870bd73736,b3cbfcf78f8871117b0dd2059d4931cbe0dd01da3af9c6ef022717933aec1065
+FSR-Quality,1,Hitman World of Assassination Ultra FSR Quality 1440p 1(1).csv,103,67.9401,2af235efd66e5bbcd4fb2a79f012987b3c0f44de,171a78298f3240113973b8d31ea90c613e82b70bc1cfa6e6e28c55a0b3831675
+FSR-Quality,2,Hitman World of Assassination Ultra FSR Quality 1440p 2(1).csv,103,69.2118,a7f341bcd85404d319a35faeda42bb5ca5d29ed1,6f2255c83bb569b99984f6f8f1901beb10877b30caa429da4fa5427e9e97fcbf
+FSR-Quality,3,Hitman World of Assassination Ultra FSR Quality 1440p 3(1).csv,103,67.5227,3a505ca000030f1fb186bd425e0c83d33c722d05,114489802fcdcbeb4b898500425d657572c71bf77b1facbfd53d84a08e2e81e4
+FSR-Performance,1,Hitman World of Assassination Ultra FSR Performance 1440p 1(1).csv,103,58.0036,51916c4ccd87a442ee12ff89d40d269c2f006c09,c03bbd8ccd96b4aa0c9c6a993627c4101cf4fc62a9c1b61794da6914e78993af
+FSR-Performance,2,Hitman World of Assassination Ultra FSR Performance 1440p 2(1).csv,103,58.5414,0cd2538943b9145fad3e4ff0d79e788a7ea4926c,a681e1146b0b4cf29dc15aef7d6dad70ddd8324aba61d4375180532c8bbe56f5
+FSR-Performance,3,Hitman World of Assassination Ultra FSR Performance 1440p 3(1).csv,104,59.3857,5cd40626c04b6600251c813308bd7425ddf98985,8c06f4454df50637aadc72838385866cbbcd452c1cac1b2edcf789e72f817def
