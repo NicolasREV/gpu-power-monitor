@@ -2,6 +2,8 @@
 
 Este índice documenta **26 execuções originais** do benchmark integrado de Cyberpunk 2077 (v2.31), coletadas em 14/10/2026, incluindo os testes pilotos e as execuções candidatas às 15 medições principais (5 modos × 3 repetições). Os **6 benchmarks de 09/11/2026 foram excluídos** da seleção.
 
+**Arquivos de potência:** as [15 medições originais da GPU (CSV)](potencia/README.md) estão publicadas em pasta separada, com três execuções por configuração e índices de integridade.
+
 **Status do acervo:** este documento é o índice; os 52 arquivos brutos (`summary.json` e `frames.csv` de cada execução) estão no pacote de distribuição preparado separadamente, mas **ainda não foram publicados neste repositório**.
 
 | Horário em 14/10 | Configuração | FPS médio | Classificação |
