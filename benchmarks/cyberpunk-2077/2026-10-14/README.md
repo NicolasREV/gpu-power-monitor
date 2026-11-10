@@ -4,7 +4,7 @@ Este índice documenta **26 execuções originais** do benchmark integrado de Cy
 
 **Arquivos de potência:** as [15 medições originais da GPU (CSV)](potencia/README.md) estão publicadas em pasta separada, com três execuções por configuração e índices de integridade.
 
-**Status do acervo:** este documento é o índice; os 52 arquivos brutos (`summary.json` e `frames.csv` de cada execução) estão no pacote de distribuição preparado separadamente, mas **ainda não foram publicados neste repositório**.
+**Status do acervo:** os **52 arquivos brutos** (`summary.json` e `frames.csv` de cada execução) estão publicados em [`fps/`](fps/README.md), com verificação de integridade em [`fps/SHA256SUMS.txt`](fps/SHA256SUMS.txt).
 
 | Horário em 14/10 | Configuração | FPS médio | Classificação |
 |---|---|---:|---|
@@ -57,14 +57,14 @@ Os 15 CSVs de potência contêm timestamps de início de coleta. A comparação 
 | FSR 2.1 Performance (nitidez 0) | 2 | 18:43:28 | 18:43:44 | 60,000069 |
 | FSR 2.1 Performance (nitidez 0) | 3 | 18:45:01 | 18:45:17 | 60,000057 |
 
-**Limites da associação:** a proximidade temporal e a sequência dos modos fornecem evidência forte de correspondência, mas os CSVs de potência não contêm FPS, nem incluem uma chave comum de execução. A publicação dos `summary.json` e `frames.csv` originais permanece pendente e permitiria auditoria mais completa. Não confundir essa associação com uma medição de FPS realizada pela ferramenta NVML.
+**Limites da associação:** a proximidade temporal e a sequência dos modos fornecem evidência forte de correspondência, mas os CSVs de potência não contêm FPS, nem incluem uma chave comum de execução. Os `summary.json` e `frames.csv` originais estão publicados em [`fps/`](fps/README.md) para auditoria independente. Não confundir essa associação com uma medição de FPS realizada pela ferramenta NVML.
 
 ## Interpretação e preservação
 
 - Os registros originais contêm `summary.json` (configurações e FPS) e `frames.csv` (dados por quadro); nenhuma execução deve ser descartada do acervo histórico por ser piloto.
-- Para a **análise principal do artigo**, somente as três execuções definitivas de cada configuração foram consideradas. O cruzamento dos horários com os CSVs de potência permitiu identificar os 15 pares prováveis, documentados acima. A validação completa por identificadores dos arquivos de FPS depende da publicação dos registros brutos.
+- Para a **análise principal do artigo**, somente as três execuções definitivas de cada configuração foram consideradas. O cruzamento dos horários com os CSVs de potência permitiu identificar os 15 pares prováveis, documentados acima. Os arquivos originais de FPS estão disponíveis para conferência; a associação com os dados de potência continua baseada nos horários, pois não existe identificador comum entre ambos.
 - A presença de `FSR2Sharpness=0.5` em um `summary.json` **não** significa nitidez ativa se `FSR2Enabled=false`.
 - Os benchmarks registram resolução de 2560×1440, limite de 60 FPS, V-Sync desligado, ray tracing desligado, frame generation desligado e resolução dinâmica desligada.
 - Estes dados descrevem FPS; o monitor Python registra potência da GPU separadamente.
 
-**Pacote original filtrado (preparado para publicação, ainda não enviado ao GitHub):** 26 pastas de 14/10/2026, com 52 arquivos brutos, mais `indice.csv`, `SHA256SUMS.txt` e `README.md`. SHA-256 do pacote ZIP preparado: `986925a6cfec3e66959403cbc7dc5179b8c0831ac838b73e7d3c9649b138f312`.
+**Arquivos brutos publicados:** 26 pastas de 14/10/2026 em [`fps/`](fps/README.md), totalizando 52 arquivos originais e o manifesto [`SHA256SUMS.txt`](fps/SHA256SUMS.txt). O índice das execuções permanece em [`indice.csv`](indice.csv).
