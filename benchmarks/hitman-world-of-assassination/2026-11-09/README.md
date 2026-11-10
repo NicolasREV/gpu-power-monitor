@@ -12,7 +12,7 @@ Foram realizadas **cinco execuções complementares** do benchmark integrado, um
 
 ## Evidências publicadas
 
-A verificação pública dos resultados de FPS se baseia exclusivamente nos arquivos originais `profiledata.txt` e `profiledata.csv` disponíveis nas pastas de cada configuração. Esses registros contêm os resultados e dados por quadro produzidos pelo benchmark integrado. **Não estão previstas capturas de tela neste repositório.**
+A verificação pública dos resultados de FPS se baseia exclusivamente nos arquivos originais `profiledata.txt` e `profiledata.csv` disponíveis nas pastas de cada configuração. Esses registros contêm os resultados e dados por quadro produzidos pelo benchmark integrado.
 
 ## Limitação metodológica
 
