@@ -59,7 +59,7 @@ Ao terminar, o programa exibe duração, quantidade de amostras, potência médi
 - Uma falha de consulta à NVML não é recuperada automaticamente.
 - O monitor não registra FPS, temperatura ou frequência da GPU.
 - Os valores representam a potência da GPU reportada pela NVML, não o consumo elétrico de todo o computador.
-- A pasta `resultados/` está excluída do repositório por padrão; os dados experimentais originais não estão incluídos aqui.
+- A pasta `resultados/`, gerada pela ferramenta de monitoramento, está excluída do controle de versão. Entretanto, os 75 arquivos CSV originais utilizados na análise de potência elétrica estão publicados no diretório `benchmarks/`, organizados por jogo, configuração gráfica e execução. Os registros de FPS disponíveis estão documentados separadamente, distinguindo as medições originais das verificações complementares.
 
 ## Documentação
 
