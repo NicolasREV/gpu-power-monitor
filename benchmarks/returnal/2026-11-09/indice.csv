@@ -1,0 +1,6 @@
+ordem_criacao,modo,arquivo_original,registros_fps,fps_min,fps_medio,fps_max,sha256
+1,Native,BenchmarkResult 2026.11.09-20.58.13.csv,298,60,60.00,60,e97034afb5a77d2d8da8a82b7cff2082636a3dccd814dc3656e32f247a7cc83d
+2,DLSS Quality,BenchmarkResult 2026.11.09-21.00.59.csv,298,60,60.00,60,6858ba10fd11eab553429d8a7351ac1ab029dc6eb30227836abb0118e778054d
+3,DLSS Performance,BenchmarkResult 2026.11.09-21.04.00.csv,298,60,60.00,60,b1a168cc9507a799ee3a323752cfb55e9cfe5b630002be88528e152415b235e7
+4,FSR Quality,BenchmarkResult 2026.11.09-21.08.12.csv,298,60,60.00,60,9d12b15afa4ab324b310de5d11e3e97536464dfaffd6e883fbce91803b612426
+5,FSR Performance,BenchmarkResult 2026.11.09-21.10.47.csv,298,60,60.00,60,02a9cb8935290e99fce160a7dcead39b8b35cbb1c02e3a3e13ec9154729afdb3
